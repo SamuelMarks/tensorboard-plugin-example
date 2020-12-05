@@ -34,7 +34,7 @@ def op(name,
        collections=None):
   """Create a TensorFlow summary op to greet the given guest.
 
-  Arguments:
+  Args:
     name: A name for this summary operation.
     guest: A rank-0 string `Tensor`.
     display_name: If set, will be used as the display name
@@ -74,7 +74,7 @@ def op(name,
 def pb(tag, guest, display_name=None, description=None):
   """Create a greeting summary for the given guest.
 
-  Arguments:
+  Args:
     tag: The string tag associated with the summary.
     guest: The string name of the guest to greet.
     display_name: If set, will be used as the display name in
